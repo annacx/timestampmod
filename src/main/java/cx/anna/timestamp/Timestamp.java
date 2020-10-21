@@ -36,7 +36,12 @@ public class Timestamp
                 if (nbt3.hasKey("timestamp")) {
                     String timestamp = nbt3.getString("timestamp").split(" ")[0];
                     String[] timestamp2 = timestamp.split("/");
-                    event.toolTip.add("\u00a7dItem Obtained On: "+addzero(timestamp2[1])+"/"+addzero(timestamp2[0])+"/"+"20"+timestamp2[2]);
+                    try{
+                        event.toolTip.add("\u00a7dItem Obtained On: "+addzero(timestamp2[1])+"/"+addzero(timestamp2[0])+"/"+"20"+timestamp2[2]);
+                    } catch (ArrayIndexOutOfBoundsException exception){
+
+                    }
+
                 }
             }
         }
