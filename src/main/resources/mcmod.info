@@ -1,0 +1,16 @@
+[
+{
+  "modid": "timestamp8346",
+  "name": "Timestamp Mod",
+  "description": "Time stamp mod for Hypixel SkyBlock that also includes a kill display for the Expertise Enchantment",
+  "version": "mars",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Anna (Dungeon)","Nora"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
